@@ -1,0 +1,475 @@
+/* Style sheet created by: Alex Peel */
+
+/* Style for body specifies a background color */
+body {
+    background-color: #000000;
+}
+
+/* Style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for container sets the border element */
+#container {
+    border: solid .3em #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header that center-aligns content */
+header {
+    text-align: center;
+}
+
+/* Style for header that specifies position and size for header image */
+header img {
+    max-height: 10em;
+    margin-bottom: 0.5em;
+}
+
+/* Style for nav specifies text properties */
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: -1.5em;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #9D9D93;
+	border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    background-color: #333333;
+    text-align: center;
+    overflow: auto;
+}
+
+/* Style that center-aligns the contact text */ 
+main .contact {
+    text-align: center;
+}
+
+/* Style specifies the spacing between words */
+main p {
+    text-align: justify;
+}
+
+/* Style specifies color to the h1, h2, h3 and h4 elements */
+main h1, h2, h3, h4 {
+    color: #FFFFFF;
+}
+
+/* Style specifies margin for main div element */
+main div {
+    margin: 2em;
+}
+
+/* Style for anchor element within main element */
+main a {
+    text-decoration: none;
+}
+
+/* Style rules for pseudo-classes */
+main a:link {
+    color: #A9A9A9;
+}
+
+main a:visited {
+    color: #A9A9A9;
+}
+
+/* Style specifies color for main element */
+main p {
+    color: #FFFFFF;
+}
+
+/* Style for unordered list element */
+main ul {
+    text-align: left;
+    padding-left: 30%;
+    color: #FFFFFF;
+}
+
+/* Style for main table element */
+main table {
+    color: #FFFFFF;
+    width: 80%;
+    min-width: 350px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style specifies margin within main container */
+main #form_container {
+    margin: 0;
+}
+
+/* Style specifies text and padding for main form element */
+main form p {
+    text-align: left;
+    padding-left: 0;
+}
+
+/* Style specifies padding for unordered list within main element */
+main form ul {
+    padding-left: 0;
+}
+
+/* Style specifies label and textarea within main form element */
+main form label, textarea {
+    clear: left;
+}
+
+/* Style specifies properties for contact element */
+.contact_button {
+    color: #FFFFFF;
+    padding: 0.5em;
+    text-decoration: none;
+    border: solid .1em #FFFFFF;
+}
+
+/* Style specifies margin within the table header element */
+.table_header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+/* Style specifies text and margin for footer element */
+footer {
+    text-align: center;
+    margin: 1em;
+}
+
+/* Style for anchor elements within the footer element */
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Style specifies to hide the tablet class */
+.tablet {
+    display: none;
+}
+
+/* Style rule for social div */
+#social {
+    text-align: center;
+}
+
+/* Style rule for social media icons */
+#social p {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 5em;
+}
+
+/* Style rule for input, select and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Style rule for label element */
+label {
+    text-align: left;
+    color: #FFFFFF;
+    display: block;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+}
+
+/* Style for rating label class */
+#rating_label {
+    text-align: left;
+    width: 38%;
+    padding-left: 0;
+    margin-bottom: 1em;
+}
+
+/* Style rule for btn class */
+.btn {
+    float: left;
+    padding: .5em 1em .5em 1em;
+    margin-right: 2em;
+}
+
+/* Style rule for chkbx class */
+.chkbx {
+    display: inline-block;
+}
+
+/* Tablet Media Query*/
+@media only screen and (min-width: 660px) {
+
+/* Style specifies a horizontal display for navigation links */
+nav li {
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 18%;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+    padding-left: 3em;
+    padding-right: 3em;
+    clear: left;
+    margin-top: -.3em;
+    border-radius: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+    color: #333333;
+}
+
+nav li:hover {
+    background-color: #9D9D93;
+	font-weight: bold;
+}
+
+/* Style specifies the form container properties for the main element */
+main #form_container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Style specifies form properties for the main element */
+main form {
+    text-align: center;
+}
+
+/* Style specifies padding and text for paragraph elements within the main form element */
+main form p {
+    text-align: left;
+    padding-left: 5em;
+}
+
+/* Style specifies padding for unordered list elements within the main form element */
+main form ul {
+    padding-left: 5em;
+}
+
+/* Style rule for label and textarea form elements within the main element */
+main form label, textarea {
+    clear: left;
+}
+
+/* Style specifies to display the tablet class */
+.tablet {
+    display: block;
+}
+
+/* Style specifies to hide the mobile class */
+.mobile {
+    display: none;
+}
+
+/* Style for table element */
+table {
+    background-color: #FFFFFF;
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Style specifies color, border and padding for th and td elements */
+th, td {
+    color: #000000;
+    border: 0.1em solid #000000;
+    padding: 1em;
+}
+
+/* Style for th element */
+th {
+    background-color: #808080;
+    color: #FFFFFF;
+}
+
+/* Style rule for label element */
+label {
+    float: left;
+    padding-right: 0.5em;
+    text-align: right;
+    width: 10em;
+}
+
+/* Style rule for submit element */
+#submit {
+    margin-left: 6em;
+}
+
+/* Style rule for form unordered list element */
+form ul {
+    list-style-type: none;
+}
+
+/* Style rule for message label element */
+#message_label {
+    margin-left: -0.5em;
+}
+
+/* Style rule for rating label element */
+#rating_label {
+    width: 8em;
+    padding-left: 5em;
+    margin-bottom: 1em;
+}
+
+/* Style specifies text alignment for rating label element */
+#rating {
+    text-align: left;
+}
+
+/* Style rule for textarea label element */
+.textarea_label {
+    margin-left: 5em;
+}
+
+/* Style rule for textarea element */
+textarea {
+    margin-left: 6em;
+}
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+@media only screen and (min-width: 830px) {
+
+/* Style specifies width of header element */
+header {
+    width: 20%;
+}
+
+/* Style specifies maximum height of image within header element */
+header img {
+    max-height: 5em;
+}
+
+/* Style specifies text alignment and background color for banner element */
+#banner {
+    text-align: center;
+    background-color: #333333;
+}
+
+/* Style specifies maximum height for banner image element */
+#banner img {
+    max-height: 400px;
+}
+
+/* Style specifies responsive style for desktop class */
+.desktop {
+    display: block;
+}
+
+/* Style specifies text alignment for paragraph elements within the main element */
+main p {
+    text-align: center;
+}
+
+/* Style for nav specifies a float, width, and maximum width */
+nav {
+    float: right;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+    margin-top: -2em;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+/* Style for navigation list items specifies margin and padding */
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style specifies background color for the selected within the nav element */
+nav #selected {
+    background-color: #333333;
+}
+
+/* Style specifies color for the selected within the nav element */
+nav #selected a {
+    color: #FFFFFF;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+    width: 100%;
+    font-size: 1em;
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+    color: #FFFFFF;
+}
+
+nav li:hover {
+    background-color: #808080;
+}
+
+
+}
